@@ -3,9 +3,11 @@
     padding: 0;
 }
 /* font */
-.inter-font{
+
+.inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
+  
 }
 
 /* Shared Styles */
@@ -21,9 +23,10 @@
     font-weight: 300;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 
-/* For Nav-bar */
+            /* For Nav-bar */
 nav{
     margin-top: 16px;
     margin-bottom: 16px;
@@ -49,3 +52,60 @@ nav{
     line-height: 12px;
 }
 
+        /* Hero-Section */
+
+.hero-section{
+    max-width: 1600px;
+    height: 674px;
+    margin: 0 auto;
+    background: url("../assets/hero-bg.png");
+}
+
+.h-heading{
+    color: #30B868;
+    background-color: white;
+    margin: 0 auto;
+    width: 220px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 40px;
+    padding-top: 15px;
+}
+.hero-contain{
+    padding-top: 155px;
+}
+.hero-contain .w{
+    color: white;
+}
+.hero-contain h1{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 16px;
+    color: #30B868;
+    padding-bottom: 16px;
+}
+.hero-contain .dis{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 1360px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 26px;
+}
+.S-btn{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 32px;
+}
+.S-btn .btn-1{
+    width: 251px;
+    border-radius: 5px;
+}
+.S-btn .btn-2{
+    width: 198px;
+    background-color: transparent;
+    border: 1px solid ;
+}
