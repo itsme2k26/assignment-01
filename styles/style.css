@@ -184,7 +184,6 @@ nav{
 
 #brain{
     max-width: 1600px;
-    height: 850px;
     margin: 0 auto;
     align-items: center;
 }
@@ -230,4 +229,56 @@ nav{
 }
 .brain-container h6 i{
     color: #30B868;
+}
+
+/* Last section */
+
+#motive{
+    max-width: 1600px;
+    height: 510px;
+    margin: 0 auto;
+}
+.last-container{
+    background-color: #f7f6f2;
+    max-width: 1360px;
+    height: 385px;
+    margin: 0 auto;
+}
+.last-container h2{
+    color: #001931;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 80px;
+}
+.last-container p{
+    text-align: center;
+    padding-top: 16px;
+    color: #627382;
+    line-height: 24px;
+    padding-bottom: 24px;
+}
+.l-btn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 16px;
+}
+
+.last-btn{
+    width: 194px;
+    padding: 18px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    background-color: #30B868;
+    border-radius: 8px;
+    border: none;
+    
+}
+.s-msg{
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 80px;
 }
