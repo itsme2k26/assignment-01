@@ -10,6 +10,7 @@
 }
 
 /* Shared Styles */
+
 .maxi-width{
     max-width: 1360px;
 }
@@ -117,6 +118,7 @@ nav{
 }
 
 /* Notes Section */
+
 #notes{
     max-width: 1600px;
     margin: 0 auto;
@@ -289,6 +291,7 @@ nav{
 }
 
 /* footer section */
+
 footer{
     background-color:#001931 ;
     max-width: 1600px;
@@ -316,7 +319,7 @@ footer{
 .s-icon{
     display: flex;
     font-size: x-large;
-    gap: 5px;
+    gap: 7px;
     
 }
 .icons{
